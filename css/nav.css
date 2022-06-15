@@ -1,0 +1,84 @@
+#mainNav
+{
+background-color:#212121;
+}
+
+#mainNav .navbar-toggler
+{
+
+font-family: 'Roboto', sans-serif;
+font-size:14px;
+right:0;
+padding:13px;
+color:#fff;
+border:0;
+background-color:#37a7ff;
+}
+
+#mainNav .navbar-brand
+{
+color:#00bfa5;
+}
+
+#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover
+{color:#212121;}
+
+#mainNav .navbar-nav .nav-item .nav-link
+{
+padding:1.1em 1em;
+font-family: 'Roboto', sans-serif;
+font-size:17px;
+font-weight:400;
+padding:20px 0;
+letter-spacing:1px;
+color:#fff;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover
+{
+color:#37a6fe;
+}
+
+/************************for media query*****************/
+
+@media (min-width:992px)
+{
+
+
+#mainNav
+{
+padding-top:25px;
+padding-bottom:25px;
+-webkit-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;
+border:none;
+background-color:transparent;
+}
+
+#mainNav .navbar-brand
+{
+font-size:1.75em;
+-webkit-transition:all .3s;transition:all .3s
+}
+
+#mainNav .navbar-nav .nav-item .nav-link
+{
+padding:1.1em 1em;
+}
+
+#mainNav.navbar-shrink
+{
+padding-top:0;
+padding-bottom:0;
+background-color:#212521;
+}
+
+#mainNav.navbar-shrink .navbar-brand
+{
+font-size:1.25em;
+padding:12px 0;
+}
+
+}
